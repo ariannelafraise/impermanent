@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
     <title>Impermanent</title>
   </head>
   <body>
+
+    <h1>Impermanent</h1>
+    <p>rendre la musique indisponible</p>
+
     <div class="container">
       <div class="colonne-formulaire">
-        <form action="">
+        <form class="form">
           <label for="author">Nom de l'auteur</label>
           <br />
           <input type="text" id="author" />
@@ -40,6 +45,13 @@
 
           <button type="submit" id="submit">Téléversement</button>
         </form>
+
+        <form action="" method="" class="form2 hidden">
+          <label for="message">Message pour l'auditeur</label>
+          <br />
+          <input type="text" id="message" />
+          <button type="code" id="code">Generer code</button>
+
       </div>
 
       <div class="colonne-instruction">
@@ -53,10 +65,6 @@
       </div>
     </div>
 
-    <form>
-          <label for="message">Message pour l'auditeur</label>
-          <br />
-          <input type="text" id="message" />
-    </form>
+    
   </body>
 </html>
