@@ -17,10 +17,9 @@ jobs:
 
       - name: Install dependencies
         run: | 
-          cd impermanent/backend
+          cd backend
           npm install 
-          npm run lint
-          npm run build
+          npm run
 
 
 

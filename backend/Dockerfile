@@ -1,5 +1,6 @@
 FROM node:20-alpine
-WORKDIR /backend
+WORKDIR /app
 COPY . .
 RUN npm install
 EXPOSE 8000
+CMD ["npm", "run", "start"]
