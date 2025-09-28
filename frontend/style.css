@@ -35,6 +35,22 @@
   padding: 10px;
 }
 
+/* Champs pleine largeur */
+.form2 input[type="text"],
+.form2 input[type="file"],
+.form2 textarea,
+.form2 button {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+.form2 button { /*avoir le bouton avec un style rond*/
+  border-radius:50px;
+  padding: 10px;
+}
+
+
+
 .hidden { display: none; }
 
 /* (Optionnel) plein écran en mobile */
