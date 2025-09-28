@@ -43,7 +43,7 @@ la théorie de la résonance du sociologue allemand Hartmut Rosa :
  	- [ ] Backend: enregistrer le fichier audio d'une chanson dans un dossier.
   	- [ ] Backend: générer un code qr et sauvegarder dans la bd une référence au code qr.
 - [ ] Backend: GET /song/{qrCode}
-- [ ] Backend:  servire les fichiers audio
+- [ ] Backend:  servir les fichiers audio
 - Déployer le tout sur notre infrastructure dans le cluster sandbox:
   (equipe)-impermanent.sandbox.cedille.club
 - [ ] CI: écrire un Dockerfile pour le frontend
@@ -54,7 +54,7 @@ la théorie de la résonance du sociologue allemand Hartmut Rosa :
 
 ## Documentation: Frontend & Backend
 
-Les éléments qui suivent sont des suggestions.  Libre à vous de procéder
+Les éléments qui suivent sont des suggestions. Libre à vous de procéder
 autrement si vous préférez !
 
 ### **Architecture**
