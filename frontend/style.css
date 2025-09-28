@@ -1,0 +1,27 @@
+#lyrics, #message {
+    height: 30em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px; /* Adds space between columns */
+  }
+
+    .colonne-formulaire {
+    padding: 15px;
+    border: 1px solid #e5e0e8;
+    background-color: #e5e0e8;
+    border-radius: 16px;
+    
+  }
+
+  .colonne-instruction {
+    padding: 15px;
+    
+  }
+
+
+
+
+  

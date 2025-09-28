@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Impermanent</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="colonne-formulaire">
+        <form action="">
+          <label for="author">Nom de l'auteur</label>
+          <br />
+          <input type="text" id="author" />
+
+          <br />
+
+          <label for="title">Titre de la chanson</label>
+          <br />
+          <input type="text" id="title" />
+
+          <br />
+
+          <label for="productor">Producteur</label>
+          <br />
+          <input type="text" id="productor" />
+
+          <br />
+
+          <label for="lyrics">Paroles</label>
+          <br />
+          <input type="text" id="lyrics" />
+
+          <br />
+
+          <input type="file" id="song" accept=".mp3, .wav, .flac" />
+
+          <br />
+
+          <button type="submit" id="submit">Téléversement</button>
+        </form>
+      </div>
+
+      <div class="colonne-instruction">
+        <h3>Instructions</h3>
+        <ul>
+          <li>Inscrivez les informations de votre chanson</li>
+          <li>Téléverser le fichier multimédia (en forme mp3, WAV ou FLAC)</li>
+          <li>Rédiger un court message pour votre auditeur</li>
+          <li>Générer votre Code QR à une seule écoute</li>
+        </ul>
+      </div>
+    </div>
+
+    <form>
+          <label for="message">Message pour l'auditeur</label>
+          <br />
+          <input type="text" id="message" />
+    </form>
+  </body>
+</html>
