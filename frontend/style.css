@@ -19,7 +19,10 @@
   border-radius: 16px;
   padding: 5rem;
 }
-
+.form input{
+  border-radius: 5px;
+  border: none;
+}
 /* Champs pleine largeur */
 .form input[type="text"],
 .form input[type="file"],
@@ -59,4 +62,3 @@
 }
 
 
-  

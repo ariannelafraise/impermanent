@@ -10,36 +10,35 @@
   <body>
 
     <h1>Impermanent</h1>
-    <p>rendre la musique indisponible</p>
+    <p>Rendre la musique indisponible</p>
 
     <div class="container">
       <div class="colonne-formulaire">
         <form class="form">
           <label for="author">Nom de l'auteur</label>
           <br />
-          <input type="text" id="author" />
+          <input type="text" id="artist" name="artist"/>
 
           <br />
 
           <label for="title">Titre de la chanson</label>
           <br />
-          <input type="text" id="title" />
+          <input type="text" id="title" name="title"/>
 
           <br />
 
           <label for="productor">Producteur</label>
           <br />
-          <input type="text" id="productor" />
+          <input type="text" id="producer" name="producer"/>
 
           <br />
 
           <label for="lyrics">Paroles</label>
           <br />
-          <input type="text" id="lyrics" />
-
+          <input type="text" id="lyrics"  name="lyrics" placeholder="Coller les paroles ici"/>
           <br />
 
-          <input type="file" id="song" accept=".mp3, .wav, .flac" />
+          <input type="file" id="song" name="file" accept=".mp3, .wav, .flac" />
 
           <br />
 
@@ -49,10 +48,9 @@
         <form action="" method="" class="form2 hidden">
           <label for="message">Message pour l'auditeur</label>
           <br />
-          <input type="text" id="message" />
-          <br/>
-          <button type="code" id="code">Generer code</button>
-
+          <input type="text" id="message" placeholder="Écrire un message envers vos auditeurs ici"/>
+          <br />
+          <button type="code" id="code">Génerer code QR</button>
       </div>
 
       <div class="colonne-instruction">
